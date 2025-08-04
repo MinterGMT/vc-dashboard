@@ -32,9 +32,9 @@ The dashboard moves beyond news reports to focus on "ground truth" data recorded
 
 *Example pngs from the app:*
 
-![VC Leaderboard](https://i.imgur.com/example-leaderboard.png)
-![Paradigm Portfolio](https://i.imgur.com/example-paradigm.png)
-![Dragonfly Network Graph](https://i.imgur.com/example-network.png)
+![VC Leaderboard](./screenshots/vc_leaderboard.png)
+![Paradigm Pie Chart](./screenshots/paradigm_pie_chart.png)
+![a16z Wallet Transactions](./screenshots/a16zteam's_wallet_transaction_graph.png)
 
 ## 🚀 Setup & Local Installation
 

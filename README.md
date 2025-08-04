@@ -30,7 +30,7 @@ The dashboard moves beyond news reports to focus on "ground truth" data recorded
 
 ## 🖼️ Gallery
 
-*Replace these with actual links to screenshots you will add to the repository:*
+*Example pngs from the app:*
 
 ![VC Leaderboard](https://i.imgur.com/example-leaderboard.png)
 ![Paradigm Portfolio](https://i.imgur.com/example-paradigm.png)
@@ -40,8 +40,8 @@ The dashboard moves beyond news reports to focus on "ground truth" data recorded
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/[YOUR-GITHUB-USERNAME]/VC-DASHBOARD.git
-    cd VC-DASHBOARD
+    git clone https://github.com/MinterGMT/vc-dashboard.git
+    cd vc-dashboard
     ```
 2.  **Create and activate a virtual environment:**
     ```bash
@@ -69,5 +69,5 @@ The dashboard moves beyond news reports to focus on "ground truth" data recorded
 This project was a deep dive into the real-world challenges of on-chain analysis. Key engineering pivots included:
 
 *   **Data Source:** The initial plan to use proprietary APIs from Arkham/Nansen was found to be unfeasible due to access limitations. The project was successfully re-architected with the more robust, open stack built on Dune, Covalent, and Etherscan.
-*   **Prioritizing Performance over Precision:** The "Recent Activity Feed" feature initially attempted to fetch historical prices for every transaction. Rigorous testing proved this to be unacceptably slow and unreliable. The final version uses a "Current Portfolio Price Map" strategy, a critical product trade-off that delivers 95% of the analytical value at 1000% of the speed, allowing for a better user experience.
+*   **Performance over Precision:** The "Recent Activity Feed" feature initially attempted to fetch historical prices for every transaction. Rigorous testing proved this to be unacceptably slow and unreliable. The final version uses a "Current Portfolio Price Map" strategy, a critical product trade-off that delivers 95% of the analytical value at 1000% of the speed, allowing for a better user experience.
 *   **The P&L Engine:** A P&L feature was successfully built to trace an asset's acquisition cost. However, it also revealed the fundamental limitations of public data for early-stage tokens, where historical prices are often unavailable. The "None" values in the final output are not a bug, but an accurate reflection of this on-chain reality, leading to a strategic decision to keep the feature as an optional "deep analysis" rather than a default view.# vc-dashboard

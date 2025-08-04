@@ -33,9 +33,11 @@ The dashboard moves beyond news reports to focus on "ground truth" data recorded
 *Example pngs from the app:*
 
 **VC Leaderboard**
+
 ![VC Leaderboard](./screenshots/vc_leaderboard.png)
 
 **Paradigm Pie Chart**
+
 ![Paradigm Pie Chart](./screenshots/paradigm_pie_chart.png)
 
 **a16z Wallet Transactions**

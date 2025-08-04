@@ -1,6 +1,6 @@
 # On-Chain VC Intelligence Dashboard
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://[YOUR-APP-URL-HERE].streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mintergmt-vc-dashboard-app-istntc.streamlit.app/)
 
 A real-time, interactive dashboard for tracking and analyzing the on-chain portfolio movements of top-tier crypto venture capital firms on Ethereum, built with Python and Streamlit.
 

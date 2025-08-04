@@ -1,0 +1,16 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Temporary data files
+portfolios.pkl
+tokens.pkl
+
+# Temporary output files
+network_graph.html
+
+# VSCode specific
+.vscode/
